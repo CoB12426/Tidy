@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Tidy, an Android home launcher">
+  <meta name="color-scheme" content="light dark">
+  <title>Privacy Policy | Tidy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f5f5f2;
+      --surface: #ffffff;
+      --text: #20211f;
+      --muted: #62645f;
+      --border: #dedfd9;
+      --accent: #315c49;
+      --accent-soft: #e4eee8;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #151714;
+        --surface: #1e211e;
+        --text: #eef0eb;
+        --muted: #b8bcb4;
+        --border: #383c37;
+        --accent: #9acbad;
+        --accent-soft: #263c30;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.75;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: clamp(24px, 5vw, 56px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+    }
+
+    h1, h2 { line-height: 1.35; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.8rem, 6vw, 2.5rem); }
+    h2 { margin: 40px 0 12px; font-size: 1.25rem; }
+    p, ul { margin: 0 0 16px; }
+    ul { padding-left: 1.4rem; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+
+    .meta { color: var(--muted); }
+    .summary {
+      margin: 28px 0;
+      padding: 18px 20px;
+      background: var(--accent-soft);
+      border-radius: 14px;
+    }
+    .summary p:last-child { margin-bottom: 0; }
+    .label { font-weight: 700; }
+
+    dl { margin: 0; }
+    dt { margin-top: 20px; font-weight: 700; }
+    dd { margin: 4px 0 0; color: var(--muted); }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 520px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; min-height: 100vh; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Tidy (Android app)</p>
+      <p class="meta">Effective date and last updated: August 28, 2026</p>
+    </header>
+
+    <div class="summary">
+      <p><span class="label">Summary:</span> Tidy generally processes the information it needs only on your device. It does not use advertising or analytics SDKs, and it does not collect personal information on servers operated by the developer.</p>
+      <p>Only when you use the weather feature are the coordinates required to retrieve weather information, together with the IP address involved in the connection, sent to Open-Meteo.</p>
+    </div>
+
+    <section>
+      <h2>1. Developer Information</h2>
+      <p>App: Tidy<br>Developer: CoB12426</p>
+    </section>
+
+    <section>
+      <h2>2. Information Accessed and How It Is Used</h2>
+      <dl>
+        <dt>Location information (approximate current location or coordinates you enter)</dt>
+        <dd>Used to display weather for your current location. Your current location is not stored persistently on your device. Coordinates you enter are stored locally as an app setting.</dd>
+
+        <dt>Calendar information</dt>
+        <dd>Calendar names, account names, event titles, times, and locations are read locally to display your schedule. Tidy does not transmit event details off your device.</dd>
+
+        <dt>Physical activity and step sensor information</dt>
+        <dd>Used to display your step count for the current day. Only the date and a baseline value used to calculate your daily steps are stored locally.</dd>
+
+        <dt>Notifications and currently playing media</dt>
+        <dd>Used to display notification counts by app and to display or control the current track title, artist, album artwork, and playback state. Notification content and media information are not stored and are processed in memory only while the app is running.</dd>
+
+        <dt>Installed app information</dt>
+        <dd>App names, package names, and icons are used to display apps in the launcher and to save groups and display preferences locally.</dd>
+
+        <dt>Photos you select</dt>
+        <dd>A reference to each selected photo is stored locally so the photo can be displayed on the home screen. Tidy does not transmit your photos off your device.</dd>
+
+        <dt>Memos, layouts, themes, and other settings</dt>
+        <dd>Stored locally to preserve the appearance and content you configure.</dd>
+
+        <dt>Device feature status</dt>
+        <dd>Used to view or change the status of Bluetooth, Wi-Fi, silent mode, screen rotation, and location settings, and to control the flashlight. Tidy does not transmit these states off your device.</dd>
+      </dl>
+      <p>Tidy requests each permission through the Android permission screen when you use the corresponding feature. You can revoke permissions at any time in your device settings.</p>
+    </section>
+
+    <section>
+      <h2>3. Data Sent to External Services</h2>
+      <p>When you use the weather feature, Tidy sends latitude and longitude to <a href="https://open-meteo.com/" rel="noopener noreferrer">Open-Meteo</a> over HTTPS. Your IP address is also communicated to the service as part of the connection. This information is used only to retrieve weather data and is not used for advertising.</p>
+      <p>Open-Meteo may retain server logs containing coordinates and IP addresses for up to 90 days for troubleshooting and related purposes. For details, see <a href="https://open-meteo.com/en/terms" rel="noopener noreferrer">Open-Meteo's Terms and Privacy Policy</a>.</p>
+      <p>Except as described above, Tidy does not sell or share personal information with third parties.</p>
+    </section>
+
+    <section>
+      <h2>4. Storage, Security, and Deletion</h2>
+      <ul>
+        <li>On-device data is stored in Android's app-specific storage and retained only for as long as needed to provide the app's features.</li>
+        <li>Uninstalling Tidy deletes the app data stored on your device.</li>
+        <li>If you use the backup feature, a JSON file containing your memo, coordinates, settings, and other configuration data is saved to a location you choose. This file is not encrypted, so you are responsible for storing and deleting it securely.</li>
+        <li>Tidy does not create user accounts, and the developer does not retain any account data.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Children's Privacy</h2>
+      <p>Tidy can be used by people of any age, but it does not knowingly collect personal information from children.</p>
+    </section>
+
+    <section>
+      <h2>6. Changes to This Policy</h2>
+      <p>This policy may be updated when features are added or applicable laws and policies change. Any material changes will be posted on this page, and the last updated date will be revised.</p>
+    </section>
+
+    <section>
+      <h2>7. Contact</h2>
+      <p>For questions about this policy or how Tidy handles data, contact <a href="mailto:cob12426@gmail.com">cob12426@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 CoB12426 / Tidy</p>
+    </footer>
+  </main>
+</body>
+</html>
