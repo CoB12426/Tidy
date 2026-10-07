@@ -5,6 +5,9 @@
 
 Tidy is a minimal Android home launcher.
 
+**IMPORTANT**
+Going forward, Tidy will be distributed exclusively through Google Play: https://play.google.com/store/apps/details?id=app.tidy.launcher&hl=en-US
+
 ## Download
 
 Get the latest APK from the [Releases](https://github.com/CoB12426/Tidy/releases/latest) page.
